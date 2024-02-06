@@ -10,7 +10,7 @@
     <!-- Titulo -->
     <title>Alexander Car Wash</title>
     <!-- Favicon -->
-    <link id="icon" rel="icon" type="image/x-icon" href="imagenes/logo.png">
+    <link id="icon" rel="icon" type="image/x-icon" href="imagenes/portada-2.jpg">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Iconos de Bootstrap -->
@@ -47,15 +47,31 @@
         </div>
       </div>
     </nav>
+    <style>
+      .row {
+        display: flex;
+        gap: 10px;
+        margin-left: 1px;
+        margin-right: 1px;
+      }
+      .columnas {
+        width: 100%;
 
+        
+      }
+    </style>
     <!-- Seccion Hero -->
     <section class="hero align-items-stretch">
-      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" 
-          src="imagenes/fotos-herreria/jairo-trabajando.png" 
+      <div class="row">
+        <h1><span style="color: blue;">Alexander</span> Car Wash is Here!</h1>
+        <h4 style="color: rgb(221, 36, 33);" >Mantenimiento, Reparación y Lavado en General</h4>
+        <img class="columnas col-6" 
+          src="imagenes/portada-2.jpg" 
           alt="Foto de Car Wash Frente">
-        <h1>Hi, Alexander Car Wash is Here!</h1>
-        <h2>Mantenimiento, Reparación y Lavado en General</h2>
+        <img class="columnas col-6" 
+          src="imagenes/portada.jpg" 
+          alt="Foto de Car Wash Frente">
+        
         <a style="text-decoration: wavy;  color: rgb(16, 9, 91); font-size: 26px;" href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-instagram"></i> 
          Siguenos en Instagram</a>
@@ -72,13 +88,13 @@
     <!-- Sobre mi -->
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
       <div class="contenedor">
-        <h2 class="seccion-titulo"><u>Conocenos</u></h2>
-        <p class="seccion-texto">
+        <h2 class="seccion-titulo"><u>About Us</u></h2>
+        <p style="color: whitesmoke;">
           "Hacemos todos tipo de reparación, mantenimiento y lavado de automoviles.
           Podras encontrarnos en la dirección:"
           We do all types of car repair, maintenance and washing. You can find us at the address: <h3><u>577 Killingly st Johnston RI.</u></h3>
         </p>
-        <a style="text-decoration: wavy;  color: rgb(16, 9, 91); font-size: 26px;" href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr" target="_blank" rel="noopener noreferrer">
+        <a style="text-decoration: wavy;  color: rgb(235, 186, 186); font-size: 26px;" href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr" target="_blank" rel="noopener noreferrer">
            <i class="bi bi-instagram"></i> 
           Siguenos en Instagram</a>
         
@@ -104,11 +120,11 @@
       <!-- Galeria de Proyectos -->
       <style>
         .span-background {
-          background-color: rgb(146, 87, 118);
+          background-color: #1475dd;
           margin: 4px;
         }
         .btn-secondary:hover {
-          background-color: rgb(146, 87, 118);
+          background-color: rgb(24, 82, 115);
           color: rgb(250, 250, 250);
           border-style: none;
           margin-top: 10px;
@@ -118,8 +134,8 @@
           font-weight:lighter;
           font-family: 'Times New Roman', Times, serif;
           width: 96%;
-          background-color: #eeebe7;
-          color:rgb(16, 9, 91);
+          background-color: rgb(33, 158, 230);
+          color:rgb(255, 255, 255);
           border-style: none;
           margin-top: 10px;
         }
@@ -219,7 +235,7 @@
     
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
-      <img class="footer-logo rounded-circle" src="imagenes/logo.png" alt="Logo del Car Wash">
+      <img class="footer-logo rounded-circle" src="imagenes/portada-2.jpg" alt="Logo del Car Wash">
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
         <!-- <a href="#" target="_blank" rel="noopener noreferrer">
           <i class="bi bi-facebook"></i>
@@ -233,7 +249,8 @@
         
       </div>
       
-      <div class="derechos-de-autor">Creado por Juan S. Casado (2024) &#169;</div>
+      <div class="derechos-de-autor">Alexander Car Wash - 577 Killingly st Johnston RI. (2024) &#169;</div>
+      <div class="derechos-de-autor"></div>
     </footer>
     <script src="./js.js" ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
