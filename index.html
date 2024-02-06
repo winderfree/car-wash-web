@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Juan S. Casado">
+    <meta name="description" content="Sitio Web Alexander Car Wash y Mecanica">
+    <meta name="keywords" content="Mantenimiento y Reparación en General">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Alexander Car Wash</title>
+    <!-- Favicon -->
+    <link id="icon" rel="icon" type="image/x-icon" href="imagenes/logo.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-ligth">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img class="rounded-circle" src="imagenes/logo.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link"  href="#sobre-mi"><h3>About Us</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos"><h3>Servicios</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto"><h3>Contact</h3></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" 
+          src="imagenes/fotos-herreria/jairo-trabajando.png" 
+          alt="Foto de Car Wash Frente">
+        <h1>Hi, Alexander Car Wash is Here!</h1>
+        <h2>Mantenimiento, Reparación y Lavado en General</h2>
+        <h3 ><a style="color: rgb(16, 14, 12);" href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr" target="_blank" rel="noopener noreferrer">
+          Siguenos en Instagram</a> <i class="bi bi-instagram"></i></h3>
+      </div>
+      <div class="hero-inferior">
+        <video controls width="250" autoplay="true">
+          <source src="videos/video-car-wash.mp4" type="video/mp4" />
+        </video>
+        <!-- <img id="mantenimiento" class="img-fluid"  alt="mantenimiento">
+        <img id="lavado" class=" img-fluid"  alt="lavado"> -->
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"><u>Conocenos</u></h2>
+        <p class="seccion-texto">
+          Hacemos todos tipo de reparación, mantenimiento y lavado de automoviles.
+          Podras encontrarnos en la dirección: <h3><u>577 Killingly st Johnston RI.</u></h3>
+        </p>
+        <h3 ><a style="color: antiquewhite;" href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr" target="_blank" rel="noopener noreferrer">
+          Siguenos en Instagram</a> <i class="bi bi-instagram"></i></h3>
+        
+      </div>
+      
+    </section>
+  
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 style="color: black;" class="seccion-titulo">
+        ¿What We Do?
+      </h2>
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" 
+        width="100" 
+        height="100" 
+        fill="currentColor" 
+        class="bi bi-arrow-down-circle-fill" 
+        viewBox="0 0 16 16" 
+        style="color:#d38e4e;" >
+          <path fill-rule="evenodd" 
+            d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"/>      
+      </svg>       -->
+      <!-- Galeria de Proyectos -->
+      <style>
+        .span-background {
+          background-color: rgb(146, 87, 118);
+          margin: 4px;
+        }
+        .btn-secondary {
+          background-color: #d38e4e;
+          border-style: none;
+          margin-top: 10px;
+        }
+      </style>
+      <div class="container text-center proyectos-contenedor">
+        <div class="row" >
+          <!-- Proyecto 1 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 span-background">
+            <!-- <div class="proyecto"> -->
+            <span style="font-size: 24px;" class="btn btn-secondary">Asientos</span>
+            <div style="display: flex; flex-wrap: wrap;"  class="fotos-herreria" >
+              <img src="imagenes/asientos/asientos.png" alt="Foto Asiento"  >
+              <img src="imagenes/asientos/asientos2.png" alt="Foto Asiento"  >
+          </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 span-background">
+            <!-- <div class="proyecto"> -->
+            <span for="interior"  style="font-size: 24px;" class="btn btn-secondary">Interiores</span>
+            <div id="interior" style="display: flex; flex-wrap: wrap;" class="" >
+              <img src="imagenes/interior/Interior.png" alt="Interiores" >
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 span-background">
+            <!-- <div class="proyecto"> -->
+              <span style="font-size: 24px;" class="btn btn-secondary">Luces</span>
+              <div style="display: flex; flex-wrap: wrap;" class="" >
+                <img src="imagenes/luces/luces- frontales-reparadas.png" alt="Luces" >
+                <img src="imagenes/luces/luces-frontales.png" alt="luces-frontales" >
+              </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 span-background">
+            <!-- <div class="proyecto"> -->
+              <span style="font-size: 24px;" class="btn btn-secondary">Puertas</span>
+              <div style="display:flex; flex-wrap: wrap; " class="" >
+                <img src="imagenes/puertas/puertas-2.png" alt="Puerta" >
+                <img src="imagenes/puertas/puertas.png" alt="Puerta" >
+              </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 span-background">
+            <!-- <div class="proyecto"> -->
+              <span style="font-size: 24px;" class="btn btn-secondary">Pulido</span>
+              <div style="display:flex; flex-wrap: wrap;" class="" >
+                <img src="imagenes/pulido/pulido-2.png" alt="Pulido" >
+                <img src="imagenes/pulido/pulido-3.png" alt="Pulido" >
+                <img src="imagenes/pulido/pulido-4.png" alt="Pulido" >
+                <img src="imagenes/pulido/pulido-5.png" alt="Pulido" >
+                <img src="imagenes/pulido/pulido.jpg" alt="Pulido" >
+              </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 span-background">
+            <!-- <div class="proyecto"> -->
+              <span style="font-size: 24px;" class="btn btn-secondary">Terminado</span>
+              <div style="display: flex; flex-wrap: wrap;" class="" >
+                <img src="imagenes/terminado/terminado-2.png" alt="Terminado" >
+                <img src="imagenes/terminado/terminado.png" alt="Terminado" >
+              </div>
+          </div>       
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Visit Us!
+            </div>
+            <div id="sombra-desc" class="col-12 col-md-4 descripcion">
+              <h5>We're At: <u>577 Killingly st Johnston RI.</u></h5>
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr">
+                <button type="button" >
+                       Contact
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo rounded-circle" src="imagenes/logo.png" alt="Logo del Car Wash">
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a> -->
+        <a href="https://www.instagram.com/sanchez.a.sp.1988?igsh=eGJxbmJ0a28zZWg1&utm_source=qr" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Juan S. Casado (2024) &#169;</div>
+    </footer>
+    <script src="./js.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
